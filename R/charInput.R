@@ -2,8 +2,8 @@
 #'
 #' generates output for code 
 #' @param which string array
-#' @keywords 
-#' @export
+#' @keywords thid 
+#' @export 
 #' @examples
 #' charInput()
 

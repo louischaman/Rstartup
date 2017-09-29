@@ -15,3 +15,4 @@ generates output for code
 \examples{
 charInput()
 }
+\keyword{thid}

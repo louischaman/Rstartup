@@ -1,13 +1,13 @@
-#' A letter counting function
+#' repath generation
 #'
 #' This function counts letters 
 #' @param which string would you like to count the letters of
 #' @keywords string count
 #' @export
 #' @examples
-#' repath()
+#' rpt()
 
-repath <- function() {
+rpt <- function() {
         x=scan("clipboard",what="string")
         xa = paste0("\"",paste(gsub('\\\\', '/', x), collapse = " "),  "\"")
         writeClipboard(xa)
